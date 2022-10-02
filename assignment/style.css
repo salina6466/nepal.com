@@ -1,0 +1,173 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image/backgroundimage.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: #400D51;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: floralwhite;
+}
+.menu-bar ul li{
+	width: 150px;
+	margin: 15px;
+	padding: 15px;
+	font-size: 18px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: floralwhite;
+}
+ .menu-bar ul li:hover{
+	background-color: #BFACE0;
+	border-radius: 3px;
+
+}
+.content table{
+	margin-top: 20px;
+}
+
+.content table p{
+	color: floralwhite;
+	align-content: justify;
+}
+.content h4{
+	color: ghostwhite;
+}
+
+.image{
+	flex-basis: 32%;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+
+}
+.image img{
+	width: 300;
+	border-radius: 10px;
+}
+.image1{
+	flex-basis: 32%;
+	margin-bottom: 30px;
+	position: relative;
+	margin-left: 20px;
+	overflow: hidden;
+
+}
+.image1 img{
+	width: 300;
+	border-radius: 10px;
+}
+.layer{
+	background:transparent;
+	height: 100%;
+	width: 300;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+
+}
+
+.layer:hover{
+	background:rgba(255, 99, 71, 0.5);
+}
+.layer h3{
+	color: #31E1F7;
+}
+.row{
+	display: flex;
+	justify-content: center;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+ span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+ button:hover span{
+	width: 100%;
+}
+ button:hover{
+	border: none;
+}
+  button a{
+	color: #fff;
+	text-decoration: none;
+}
+.paragraph table{
+	background-image: url(image/b.jpg);
+    background-size: cover;
+    align-items: center;
+    margin-top: 20px;
+}
+.paragraph table h1{
+	color: bisque;
+	align-content: center;
+}
+	
+
+.paragraph table p{
+	color: floralwhite;
+	align-content: justify;
+}
+.paragraph table h4{
+	color: navajowhite;
+}
+.history table{
+	margin-top: 10px;
+}
+.history table p{
+	color: floralwhite;
+	align-content: justify;
+}
+.history table h2{
+	color: navajowhite;
+}
+.culture table{
+	margin-top: 10px;
+}
+.culture table p{
+	color: floralwhite;
+	align-content: justify;
+}
+.culture table h2{
+	color: navajowhite;
+}
+.vlog table{
+	margin-top:10px ;
+	margin-left: 10px;
+}
+
+
+
